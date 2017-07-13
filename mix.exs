@@ -37,8 +37,8 @@ defmodule SendGrid.Mixfile do
       {:earmark,      "~> 1.2",  only: :dev},
       {:ex_doc,       "~> 0.16.2", only: :dev},
       {:httpoison,    "~> 0.11.0"},
-      {:poison,       "~> 2.0"},
-      {:phoenix,      "~> 1.2", only: :test},
+      {:poison,       "~> 3.1"},
+      {:phoenix,      "~> 1.3.0-rc", only: :test},
       {:phoenix_html, "~> 2.9", only: :test}
     ]
   end
